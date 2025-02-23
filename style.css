@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(34, 40, 40);
+    margin:0;
+    padding:0;
+    color:white;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.heading{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.home-text{
+    color: white;
+    font-size: 30px;
+    width: 60%;
+}
+.home-photo img{
+    width:350px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nav-link{
+    margin-top: 40px;
+    font-size: 28px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    display: inline-block; 
+    color:white;
+    transition: color 0.3s ease-in-out;
+}
+.nav-link:hover{
+    color:yellow;
+    transform: scale(1.5);
+}
+/* About Section */
+#about {
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 300px;
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background:lightgrey;
+    color:black;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#contact {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #222;  
+    color: #fff;       
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+#contact h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #00bcd4;  
+}
+
+#contact p {
+    font-size: 25px;
+    margin: 10px 0;
+    color: #ccc;  
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 24px;
+    margin: 0 15px;
+    color: #00bcd4; /* Light blue */
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff4081; /* Pink on hover */
+    transform: scale(1.2); /* Slightly increase size */
+}
+#contact{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#contact a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    background: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#contact a:hover {
+    background: #ff4081; /* Change color on hover */
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btn {
+    margin-top: 0;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(34, 40, 40);
+    color: white;
+    cursor: pointer;
+}
+
+
